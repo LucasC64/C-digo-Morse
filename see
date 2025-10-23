@@ -34,7 +34,7 @@ public class Main {
                     System.out.println("Nenhum caractere encontrado");
                 } else {
                     System.out.println("Código Morse: " + codBusca);
-                    System.out.println("Corresponde a: " + resultado)
+                    System.out.println("Corresponde a: " + resultado);
 
                 }
 
