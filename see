@@ -30,7 +30,7 @@ public class Main {
                 System.out.print("Digite o código Morse que deseja buscar: ")
                 String codBusca = input.nextLine();
                 String resultado = arvore.buscar(codBusca);
-                if (resultado.equals("") || resultado == null) 
+                if (resultado.equals("") || resultado == null) {
                     System.out.println("Nenhum caractere encontrado");
                 } else {
                     System.out.println("Código Morse: " + codBusca);
