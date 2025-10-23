@@ -24,7 +24,7 @@ public class Main {
                 System.out.print("Digite o caractere: ");
                 String caractere = input.nextLine().toUpperCase();
                 arvore.inserir(codigo, caractere);
-                System.out.println("Inserido com sucesso!")
+                System.out.println("Inserido com sucesso!");
 
             } else if (opcao == 2) {
                 System.out.print("Digite o código Morse que deseja buscar: ")
