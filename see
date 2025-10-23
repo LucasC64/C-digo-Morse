@@ -27,7 +27,7 @@ public class Main {
                 System.out.println("Inserido com sucesso!");
 
             } else if (opcao == 2) {
-                System.out.print("Digite o código Morse que deseja buscar: ");
+                System.out.print("Digite o código Morse que deseja buscar: ")
                 String codBusca = input.nextLine();
                 String resultado = arvore.buscar(codBusca);
                 if (resultado.equals("") || resultado == null) {
