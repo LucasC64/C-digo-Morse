@@ -9,7 +9,7 @@ public class Main {
         int opcao = -1;
 
         while (opcao != 0) {
-            System.out.println("1 - Inserir caractere");
+            System.out.println("1 - Inserir caractere")
             System.out.println("2 - Buscar letra pelo código Morse");
             System.out.println("3 - Remover caractere");
             System.out.println("4 - Exibir árvore");
