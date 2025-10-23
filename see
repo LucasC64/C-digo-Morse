@@ -16,7 +16,7 @@ public class Main {
             System.out.println("0 - Sair");
             System.out.print("Escolha uma opção: ");
             opcao = input.nextInt();
-            input.nextLine(); // limpa o buffer
+            input.nextLine(); 
 
             if (opcao == 1) {
                 System.out.print("Digite o código Morse: ");
