@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        arvoreBinaria arvore = new arvoreBinaria()
+        arvoreBinaria arvore = new arvoreBinaria();
 
         int opcao = -1;
 
