@@ -14,7 +14,7 @@ public class Main {
             System.out.println("3 - Remover caractere");
             System.out.println("4 - Exibir árvore");
             System.out.println("0 - Sair");
-            System.out.print("Escolha uma opção: ")
+            System.out.print("Escolha uma opção: ");
             opcao = input.nextInt();
             input.nextLine(); // limpa o buffer
 
